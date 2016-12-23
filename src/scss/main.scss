@@ -1,0 +1,56 @@
+/*
+** - CUSTOM VARIABLES
+*/
+
+@import 'variables';
+
+
+/*
+** - SETTINGS
+*/
+// Global variables, site-wide settings, config switches, etc.
+
+/*
+** - TOOLS
+*/
+// Site-wide mixins and functions.
+@import 'tools/functions';
+@import 'tools/media-queries';
+@import 'tools/mixin';
+
+/*
+** - GENERIC
+*/
+// Low-specificity, far-reaching rulesets (e.g. resets).
+@import 'generic/normalize';
+
+/*
+** - BASE
+*/
+// Unclassed HTML elements (e.g. a {}, blockquote {}, address {}).
+@import 'base/base';
+@import 'base/fonts';
+
+/*
+** - OBJECTS
+*/
+// Objects, abstractions, and design patterns (e.g. .media {}).
+@import 'objects/container';
+@import 'objects/bootstrap-grid';
+
+/*
+** - COMPONENTS
+*/
+// Discrete, complete chunks of UI (e.g. .carousel {}). This is the one layer that inuitcss doesn’t get involved with.
+// @import 'components/';
+
+
+/*
+** - TRUMPS
+*/
+// High-specificity, very explicit selectors. Overrides and helper classes (e.g. .hidden {}).
+@import 'trumps/helpers';
+
+
+
+

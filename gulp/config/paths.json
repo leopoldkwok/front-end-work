@@ -1,0 +1,24 @@
+{
+	"paths": {
+		"scripts": {
+			"src": "src/js",
+			"dist": "dist/js"
+		},
+		"styles": {
+			"src": "src/scss",
+			"dist": "dist/css"
+		},
+		"ie": {
+			"src": "src/ie'",
+			"dist": "dist/ie"
+		},
+		"fonts": {
+			"src": "src/fonts",
+			"dist": "dist/fonts"
+		},
+		"images": {
+			"src": "src/images",
+			"dist": "dist/images"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+@mixin font($font) {
+    font-family: '#{$font}', Helvetica, Arial, sans-serif;
+}
+
+@mixin box-sizing($boxmodel) {
+  -webkit-box-sizing: $boxmodel;
+     -moz-box-sizing: $boxmodel;
+          box-sizing: $boxmodel;
+}

@@ -1,0 +1,63 @@
+html {
+    @include font($font-family-regular);
+
+    font-size: rem($font-size-base);
+    // font-size: calc(1em + 1vw);
+    size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+a {
+    background-color: transparent;
+
+    &:active,
+    &:hover {
+        outline: 0;
+    }
+}
+
+dfn {
+    font-style: italic;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+small {
+    font-size: 80%;
+}
+
+img {
+    border: 0;
+}
+
+.img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+h1 {
+    @include font($font-family-regular-header);
+}
